@@ -26,3 +26,10 @@ In order to finish recording and save the video file, enter `quit` in the origin
 
 Do not close with `ctrl-c` as it can corrupt the file!
 
+## Notes
+
+- Doesn't display cursor in output
+  - There is a way to provide a custom PNG to overlay cursor movements
+    - BUT! Cursor won't change as it does on usual interactive elements (text, buttons, etc) 
+- Apparent lag in final output
+  - FPS flag doesn't seem to change the output framerate
