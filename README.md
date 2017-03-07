@@ -12,10 +12,10 @@ To save a new video file in the current folder:
 screencast
 ```
 
-To save a new video file in a new/existing folder `foo`:
+Pass `-d` or `--directory` to save a new video file in a new or existing folder `foo`:
 
 ```
-screencast -d foo # -d or --directory
+screencast -d foo
 ```
 
 New files will be named `screencast-<year><month><day><hour><minute>.mp4`
@@ -31,5 +31,5 @@ Do not close with `ctrl-c` as it can corrupt the file!
 - Doesn't display cursor in output
   - There is a way to provide a custom PNG to overlay cursor movements
     - BUT! Cursor won't change as it does on usual interactive elements (text, buttons, etc) 
-- Apparent lag in final output
+- Obvious lag in final output
   - FPS flag doesn't seem to change the output framerate
